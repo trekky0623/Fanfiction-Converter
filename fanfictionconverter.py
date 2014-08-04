@@ -6,7 +6,7 @@ import urllib.request                           # grabbing URLs
 import os                                       # creating files, etc.
 import tkinter.filedialog                       # used to choose directories
 import threading                                # omg multithreading
-import ZipFile                                  # apparently epub = zip :D
+import zipfile                                  # apparently epub = zip :D
 import shutil                                   # removing pesky directories
 
 
@@ -26,6 +26,10 @@ STYLESHEET = '''p{
 
 p+p{
     text-indent: 5%;
+}
+
+em{
+    padding-right: 0.1em;
 }'''
 
 
